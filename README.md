@@ -32,7 +32,7 @@ The ML model to predict sleep duration.ipynb notebook performs the following ste
 - Data Loading: Reads the cleaned sleep data from a CSV file.
 - Exploratory Data Analysis (EDA): Displays data head, identifies numerical and categorical features, and analyzes unique values in specific columns.
 - Data Preprocessing: Separates the target variable (Sleep Duration) from features, creates column transformers for numerical and categorical features, and scales/encodes them.
-- Model Training: Trains various regression models including K-Nearest Neighbors, Decision Tree, Random Forest, AdaBoost, Support Vector Regressor, Linear Regression, Ridge, Lasso, CatBoost, and XGBoost.
+- Model Training: Trains various regression models including Random Forest, Support Vector Regressor, Linear Regression, Ridge and Lasso.
 - Model Evaluation: Evaluates models using metrics such as R-squared, Mean Absolute Error, and Mean Squared Error.
 
 ## Results
